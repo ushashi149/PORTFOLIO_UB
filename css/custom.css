@@ -201,10 +201,3 @@
 .dark .t3 { --theme: #b5a6e8; }
 .dark .t4 { --theme: #aab2bd; }
 @media (max-width: 767.98px) { .pub-themes { grid-template-columns: 1fr; } }
-
-/* Publication-type labels on the left edge of each paper card. */
-.pub-card[data-ribbon="Journal"]::before { background: #ca6702; }
-.pub-card[data-ribbon="Conference"]::before { background: #1565c0; }
-.pub-card[data-ribbon="Workshop"]::before { background: #2e7d5b; }
-.pub-card[data-ribbon="Poster"]::before { background: #6a4c93; }
-.pub-card[data-ribbon="Preprint"]::before { background: #6b7280; }
